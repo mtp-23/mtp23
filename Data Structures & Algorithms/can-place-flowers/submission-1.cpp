@@ -11,10 +11,10 @@ public:
 
             if (flowerbed[i] == 0 && leftOk && rightOk)
             {
-                flowerbed[i] = 1;  // ✅ Đánh dấu đã trồng
+                flowerbed[i] = 1;  
                 c++;
             }
         }
-        return c >= n;  // ✅ Đủ chỗ hay không
+        return c >= n;  
     }
 };
